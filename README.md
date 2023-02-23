@@ -1,8 +1,9 @@
 # Index-tracking portfolio optimization using Deep learning
 
-Implementing a deep learning model to minimize the index-tracking portfolio loss to optimize the portfolio for better imitation of the S&P 500 index. We introduce a deep neural network, use a shallow neural network as the deep learning baseline, and the simple 1/N model as the benchmark.
+Implementing a deep learning model with PyTorch framework to minimize the index-tracking portfolio loss to optimize the portfolio for better imitation of the S&P 500 index. We introduce a deep neural network, use a shallow neural network as the deep learning baseline, and the simple 1/N model as the benchmark.
 
 This project is based on the paper:
+
 Yuyeong Kwak, Junho Song, Hongchul Lee,
 Neural network with fixed noise for index-tracking portfolio optimization,
 Expert Systems with Applications,
