@@ -10,16 +10,17 @@ Volume 183,
 2021,
 115298,
 ISSN 0957-4174
-https://doi.org/10.1016/j.eswa.2021.115298.
-(https://www.sciencedirect.com/science/article/pii/S0957417421007284)
+
+https://doi.org/10.1016/j.eswa.2021.115298
+https://www.sciencedirect.com/science/article/pii/S0957417421007284
 
 ##  Models
 
-Deep Neural Network (Deep NNF)
+### Deep Neural Network (Deep NNF)
 A neural network consisting of six fully connected layers and a ReLU activation layer between the fully to each fully connected layer to prevent overfitting.
 
-Shallow Neural Network (Shallow NNF):
+### Shallow Neural Network (Shallow NNF):
 A neural network consisting of three layers: fully connected layer, ReLU activation layer, and fully connected layer
 
-1/N Model
+### 1/N Model
 Equally weighted portfolio which gives the 1/N weight (N being the number of stocks) to each stock and does not distinguish between the stock's importance
