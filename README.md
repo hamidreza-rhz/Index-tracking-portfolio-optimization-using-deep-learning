@@ -1,6 +1,6 @@
 # Index-tracking portfolio optimization using Deep learning
 
-Implementing a deep learning model with PyTorch framework to minimize the index-tracking portfolio loss to optimize the portfolio for better imitation of the S&P 500 index. We introduce a deep neural network, use a shallow neural network as the deep learning baseline, and the simple 1/N model as the benchmark.
+Implementing a deep learning model with PyTorch framework to minimize the index-tracking portfolio loss to optimize the portfolio for better imitation of the S&P 500 index. We introduce a deep neural network, use a shallow neural network as the deep learning baseline, and the simple 1/N model as the benchmark. Then compare Deep NNF to other two models in form of full replication or partial replication of the index to find out the performance of our model.
 
 This project is based on the paper:
 
@@ -19,7 +19,7 @@ https://www.sciencedirect.com/science/article/pii/S0957417421007284
 ##  Models
 
 ### Deep Neural Network (Deep NNF)
-A neural network consisting of six fully connected layers and a ReLU activation layer between the fully to each fully connected layer to prevent overfitting.
+A neural network consisting of six fully connected layers and a ReLU activation layer between the fully connected layers. Applying dropout to each fully connected layer to prevent overfitting.
 
 ### Shallow Neural Network (Shallow NNF)
 A neural network consisting of three layers: fully connected layer, ReLU activation layer, and fully connected layer
